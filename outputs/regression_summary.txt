@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.776
+Model:                            OLS   Adj. R-squared:                  0.771
+Method:                 Least Squares   F-statistic:                     134.3
+Date:                Tue, 17 Nov 2026   Prob (F-statistic):           1.40e-37
+Time:                        14:46:05   Log-Likelihood:                 254.83
+No. Observations:                 120   AIC:                            -501.7
+Df Residuals:                     116   BIC:                            -490.5
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0026      0.003      0.929      0.355      -0.003       0.008
+Market_Excess     1.2378      0.063     19.578      0.000       1.113       1.363
+SMB               0.6523      0.123      5.284      0.000       0.408       0.897
+HML              -0.3625      0.086     -4.199      0.000      -0.534      -0.192
+==============================================================================
+Omnibus:                        6.927   Durbin-Watson:                   1.899
+Prob(Omnibus):                  0.031   Jarque-Bera (JB):                3.285
+Skew:                           0.116   Prob(JB):                        0.193
+Kurtosis:                       2.223   Cond. No.                         46.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
